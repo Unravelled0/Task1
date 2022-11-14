@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  body{
+    background-image: url(./photos/428701.webp);
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 27px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 17px;
+  }
+  
+  .centered {
+    position: absolute;
+    margin-top: 300px;
+    top: 50%;
+    font-size: 27px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+ 
